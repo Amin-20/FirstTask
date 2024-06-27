@@ -1,0 +1,140 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #9696e6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+    margin: 20px 0;
+}
+
+.students {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #5c5ce7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 20%;
+}
+
+
+
+.card-img {
+    text-align: center;
+}
+
+.card-img img {
+    width: 250px;
+    height: 250px;
+}
+
+.card-text {
+    border-top: 1px solid #ffffff;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.card-text h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.card-text h4 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+.card-link {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    background-color: #062031;
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-link span {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.card-link:hover {
+    background-color: #062031;
+}
+
+.card-link:hover span {
+    margin-left: 15px;
+}
+
+
+
+.back-link a {
+    text-decoration: none;
+    color: #062031;
+    font-size: 1.2em;
+    margin-bottom: 50px;
+    margin-left: -100px;
+}
+
+.back-link a:hover {
+    color: #062031;;
+}
+
+.detail-body {
+    font-family: 'Arial', sans-serif;
+    background-color: #9696e6;
+    color: #b4b4b4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.student-card {
+    background-color: #5c5ce7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.student-img img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.student-info {
+    border-top: 1px solid #ffffff;
+}
+
+.student-info h2,
+.student-info h4 {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.student-info h4 {
+    color: #ffffff;
+}
